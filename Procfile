@@ -1,1 +1,1 @@
-web: java -cp target/classes com.mycompany.springboot.HttpServer com.mycompany.springboot.WebServices
+web: java -cp target/classes:target/dependency/* com.mycompany.springboot.HttpServer com.mycompany.springboot.WebServices
